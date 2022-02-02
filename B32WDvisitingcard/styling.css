@@ -1,0 +1,21 @@
+.visiting_card{
+    background:rgb(145, 223, 29);
+    padding: 10px;
+    font-family:sans-serif;
+    width: 320px;
+    box-shadow: -12px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -12px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -12px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+.separate{
+    text-align: right;
+    font-family: cursive;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px
+}
+
+p{
+    margin:4px;
+}
