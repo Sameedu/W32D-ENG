@@ -1,0 +1,59 @@
+.extimage{ 
+    background-size:cover;
+    background-image:url("office-work.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:hsl(246deg 38% 16%); ;
+    background-blend-mode:luminosity;
+    height: 360px;
+    width: 440px;
+    
+     
+}
+.extwrite{
+
+    background-color:hsl(246deg 38% 16%);
+    color: hsl(231deg 6% 77%);
+    padding: 20px;
+    height: 320px;
+    width: 400px;
+
+    
+}
+section{
+    display: flex;
+
+    
+
+}
+.internal{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    
+}
+body{
+    background-color: hsl(240deg 43% 1%);
+    width:100%;
+    padding:100px
+    
+
+}
+.pbottom{
+    margin-bottom: 70px;
+
+
+}
+
+.internalp{
+    margin: 1px;
+    font-size: 10px;
+}
+
+.internalp1{
+    margin: 1px;
+    font-size: 25px;
+}
+.insights{
+    color: #a460cc;
+}
