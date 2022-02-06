@@ -1,0 +1,47 @@
+
+
+{
+  "Basics": [{
+    "name": "Sameeksha Peesa",
+    "label": "Sr Data Analyst",
+    "email": "peesasameeksha@gmail.com",
+    "phone": "(091) 9848412343",
+    "summary": "Sr Data Analyst with GSS"
+    }],
+
+ "location": [{
+      "address": "Bachupally",
+      "postalCode": "500090",
+      "city": "Hyderabad",
+      "countryCode": "IN",
+      "State": "Telangana"
+    }], 
+  "work": [{
+    "name": "GSS",
+    "position": "Sr Data Analyst",
+    "startDate": "2015-08-01",
+    "endDate": "Till date",
+    "summary": " "
+  }],
+  "Highest education": [{
+    "institution": "Hyderabad University",
+    "location":"Hyderabad",
+    "course type":"Masters",
+    "course":"MBA",
+    "Branch":"Business Management",
+    "startDate": "2013-07-15",
+    "endDate": "2015-03-20",
+    "CGPA score": "7.0"
+  }],
+  "awards": [{
+    "title": "Itrack Award",
+    "date": "2018-11-01",
+    "awarder": "GSS HR",
+    "summary": "Best performer for the year"
+  }],
+ "skills": ["bigdata", "Python", "data Analytics"],
+ "languages": [{
+    "language": "English",
+    "fluency": "B2+ English standard"
+  }]
+ }
