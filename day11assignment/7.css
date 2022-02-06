@@ -1,0 +1,49 @@
+
+    input[type=text] {
+      width: 100%;
+      
+      margin: 8px 0;
+      box-sizing: border-box;
+      border: none;
+      border-bottom: 2px solid red;
+      margin-bottom: 0px;
+      font-weight:bolder;
+      font-size:medium
+      
+    }
+    input:placeholder-shown {
+      font-style: italic;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   }
+   .outer{
+        width: fit-content;
+        margin: 20px;
+        padding: 10px;
+        display: inline-block;
+        border: 10px solid black;
+
+
+    }
+    .heading{
+       background-color:red; 
+       text-align: center;
+       padding: 8px 20px;
+        font-size: 32px;
+    }
+
+    td{
+      padding-right: 15px;
+    }
+
+    .headingtr{
+      border-top-width:20px;
+    }
+    .subscribeoption{
+      display:flex;
+      align-items: center;
+    }
+    .sendopt{
+      margin-top: 0px;
+    margin-bottom: 2px;
+    }
+  
