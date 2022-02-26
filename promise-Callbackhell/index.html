@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>callbackhellwithpromise</title>
+</head>
+
+<body>
+    <h1 class="classexample">10</h1>
+    <script>
+       
+/*       window.setTimeout(() => {
+            document.querySelector(".classexample").innerText = --countdown;
+            window.setTimeout(() => {
+                document.querySelector(".classexample").innerText = --countdown;
+                window.setTimeout(() => {
+                document.querySelector(".classexample").innerText = --countdown;
+                window.setTimeout(() => {
+                document.querySelector(".classexample").innerText = --countdown;
+                window.setTimeout(() => {
+                document.querySelector(".classexample").innerText = --countdown;
+                window.setTimeout(() => {
+                document.querySelector(".classexample").innerText = --countdown;
+                window.setTimeout(() => {
+                document.querySelector(".classexample").innerText = --countdown;
+                },1000);
+                },1000);
+                },1000);
+                },1000);
+                },1000);
+                },1000);
+        }, 1000); */
+        function callbackhellPromise(countvalue){
+        let sam = (countdown) => 
+        new Promise ((resolve, reject) =>  {
+                if (countdown >= 1) {
+                    window.setTimeout(() => {
+                document.querySelector(".classexample").innerText = countdown;
+                resolve(countdown); 
+                },1000)
+                }
+                else
+                {
+                reject("End")
+                }
+        })
+        
+        sam(countvalue)
+            .then((n) => sam(--n))
+                .then((n) => sam(--n))
+                .then((n) => sam(--n))
+                .then((n) => sam(--n))
+                .then((n) => sam(--n))
+                .then((n) => sam(--n))
+                .then((n) => sam(--n))
+                .then((n) => sam(--n))
+                .then((n) => sam(--n))
+                .then((n) => sam(--n))
+            .catch(() =>  window.setTimeout(() => { document.querySelector(".classexample").innerText = "Happy Independence day!"},1000))
+        }
+
+        callbackhellPromise(9)
+
+    </script>
+    
+</body>
+</html>
