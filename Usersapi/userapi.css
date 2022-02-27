@@ -1,0 +1,44 @@
+.outer {
+    height:250px;
+    max-width: 500px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #eeba28, #ddc524, #cacf29, #b4d835, #9be147, #86e760, #6eed79, #52f291, #3ff6af, #39f8c9, #46fadf, #5ffbf1);
+    gap:20px;
+    border: 2px solid black;
+    box-shadow: -12px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -12px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -12px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.userpic {
+   height:200px;
+   width:200px;
+   border-radius: 50%;
+   background-position: contain;
+   background-repeat:no-repeat;
+   padding: 10px
+}
+
+.userdata {
+    margin-bottom: 4px;
+    padding-bottom: 2px;
+    font-family: 'Roboto', sans-serif;
+    font: weight 8px;
+    
+}
+
+span{
+    font-weight: bolder;
+}
+
+
+body {
+        display: flex;
+        align-content: center;
+        gap: 30px;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+
