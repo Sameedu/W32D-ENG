@@ -1,0 +1,39 @@
+.outercover{
+    max-width:1200px;
+
+}
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin-top:50px;
+    margin-left: 100px;
+    padding-right:10px;
+    padding-left:10px;
+    text-align: left;
+    width:100%;
+    background-image: linear-gradient(to right,#d16ba5,#c777b9,#ba83ca,#aa8fd8,#9a9ae1,#8aa7ec,#79b3f4,#69bff8,#52cffe,#41dfff,#46eefa,#5ffbf1);
+    background-size: cover;
+    box-shadow: -12px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: -12px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -12px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+tr{
+    border: 10px transparent;
+}
+th{
+    text-align: center;
+    padding-bottom:50px;
+    padding-top: 50px;
+    font-size: large;
+    
+}
+td{
+    padding:10px;
+
+}
+span{
+    font-weight: bolder;
+    
+}
