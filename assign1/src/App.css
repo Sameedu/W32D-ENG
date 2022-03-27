@@ -1,0 +1,61 @@
+.card-title{
+ text-align: center;
+ color: gray;
+ margin: 5px;
+}
+
+
+.card-price{
+  text-align: center;
+  font-size: 44px;
+  font-weight: lighter;
+  margin: 10px;
+}
+
+.period{
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+.fa-ul{
+  text-align: left;
+  padding-left: 5px;
+
+}
+
+.msize{
+  font-size: 14px;
+  font-weight: bolder;
+  padding-right: 10px;
+  margin-bottom: 15px;
+}
+
+.listing{
+  font-size: 15px;
+}
+.btn{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.boxclass{
+  
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+  border: white solid;
+  margin:20px;
+}
+
+.effect:hover{
+  
+  width:130%
+}
+
+
+.card{
+  border-radius: 200px;
+}
+
+.grayshade{
+  color: gray;
+}
