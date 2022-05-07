@@ -1,0 +1,36 @@
+.imagediv{
+    height: 180px;
+    max-width: 220px;
+    background-image: url("./450into300image.jpg");
+    background-repeat:no-repeat;  
+    background-size: contain;
+
+}
+
+.cardext{
+    max-width: 220px;
+    height: 350px;
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    position: relative;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+.datadiv{
+    max-width: 220px;
+    height: 125px;
+
+}
+button:hover {
+    color: #fff;
+    background-color: #212529;
+    border-color: #212529;
+}
+button{
+    margin:20px;
+    padding:10px;
+}

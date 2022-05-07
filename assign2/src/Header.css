@@ -1,0 +1,19 @@
+.Headerdiv{
+    height: 280px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.headsec{
+    font-size: 50px;
+    font-weight: 900;
+    margin: 0px;
+}
+.smallsec{
+    font-size: 18px;
+    margin: 0px;
+}
